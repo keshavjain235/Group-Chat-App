@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:groupchatapp/views/conversation_screen.dart';
 
+import 'conversation_screen_2.dart';
+import 'conversation_screen_3.dart';
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -18,22 +21,44 @@ class _HomeState extends State<Home> {
           GestureDetector(
             onTap: () {
               Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => ConversationScreen()));
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ConversationScreen()
+                )
+              );
             },
             child: ListTile(
               title: Text("FlutterDev Connect"),
               subtitle: Text("A community of Flutter Developers"),
             ),
           ),
-          ListTile(
-            title: Text("Flutter Chandigarh"),
-            subtitle: Text("A community of Flutter Developers"),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ConversationScreen2()
+                )
+              );
+            },
+            child: ListTile(
+              title: Text("Flutter Chandigarh"),
+              subtitle: Text("A community of Flutter Developers"),
+            ),
           ),
-          ListTile(
-            title: Text("Chitkara University"),
-            subtitle: Text("A Chitkara University students group"),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ConversationScreen3()
+                )
+              );
+            },
+            child: ListTile(
+              title: Text("Chitkara University"),
+              subtitle: Text("A Chitkara University students group"),
+            ),
           )
         ],
       ),
