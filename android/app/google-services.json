@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "736019197119",
+    "project_id": "group-chat-app-flutter",
+    "storage_bucket": "group-chat-app-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736019197119:android:e46bb4b9543490145d2a0a",
+        "android_client_info": {
+          "package_name": "com.keshav.groupchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736019197119-63u1b4eqt6o0gd9n45sna1jrue1anplp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keshav.groupchatapp",
+            "certificate_hash": "263ded54ae03e06844ef0d04f47307d6ce415af3"
+          }
+        },
+        {
+          "client_id": "736019197119-24ndfr7d2q9q6hp8p1r99p5caaqp4vin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_lpROev030touSQ7R8zzFfkogrXVmSuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736019197119-24ndfr7d2q9q6hp8p1r99p5caaqp4vin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
